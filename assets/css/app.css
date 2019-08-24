@@ -1,3 +1,19 @@
 /* This file is for your main application css. */
 
-@import "./phoenix.css";
+@tailwind base;
+@tailwind components;
+
+/* Put your custom components here */
+
+@tailwind utilities;
+
+/* Put your custom utilities here */
+
+
+.cell {
+  width: 10%;
+  padding-top: 10%;
+}
+.cell.active {
+  background-color: green;
+}
